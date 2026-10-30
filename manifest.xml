@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>more_customers</ID>
+  <Name>More customers and sellers</Name>
+  <Author>Luviein</Author>
+  <ModVersion>1.0</ModVersion>
+  <Description>Increase spawn rate of customers/buyers</Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Prerequisites />
+  <!-- Every DLL the game must load, relative to this folder. Nothing else in the folder is loaded. -->
+  <Assemblies>
+    <Assembly>more_customers.dll</Assembly>
+  </Assemblies>
+  <!-- What your code does beyond the game's API: files, network, process, dynamic-code, native, reflection-external.
+       Most mods need none. The game scans your DLL when a player activates the mod; an undeclared capability
+       refuses the activation. Check with the console command: mod-scan more_customers   (see ModdingGuide.md) -->
+  <Capabilities />
+</Manifest>
